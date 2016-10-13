@@ -41,7 +41,7 @@ class log_Module():
     def save_log(self,fc,text=None):
         time=str(datetime.datetime.now())[:-7]
         
-        fc.write('\t')
+        #fc.write('\t')
         if not text:
             fc.write(time)
             fc.write('\t')
